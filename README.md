@@ -11,8 +11,9 @@ Python3 kann bei Bedarf von [python.org](https://www.python.org/downloads/) runt
 
 Requests anschließend in einem Terminal/Command Line-Fenster mit `pip install requests` installieren.
 
+Jetzt muss das `calcHourlyCAP`Programm von Github geladen werden. Falls noch nicht vorhanden, dazu das "git"-Tool installieren, siehe hier [install-git](https://github.com/git-guides/install-git).<br/>
 Jetzt den Befehl `git clone https://github.com/joeyc64/calcHourlyCAP` ausführen.<br/>
-In das Verzeichnis `calcHourlyCAP`wechseln.<br/>
+Mit `cd calcHourlyCAP` in das Arbeitsverzeichnis wechseln.<br/>
 Mit dem Befehl `python calcHourlyCAP.py` kann jetzt die Preisberechnung durchgeführt und angezeigt werden.
 (Statt python evtl. python3 eingeben)
 
