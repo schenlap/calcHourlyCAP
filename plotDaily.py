@@ -24,10 +24,12 @@ fig = go.Figure(data=[
         x=time, y=awattar_price)
 ])
 
+
 fig.update_layout(barmode='overlay', hovermode='x')
 fig.layout['xaxis_tickformat'] = '%H'
 fig.layout['xaxis_hoverformat'] = '%y/%m/%d %H:00'
 fig.update_layout(
+    title='Awattar CAP prices',
     hoverlabel=dict(
         bgcolor="white",
         font_size=16,
