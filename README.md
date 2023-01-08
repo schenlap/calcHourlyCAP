@@ -62,6 +62,13 @@ Spalte 4 - Sync-Bonus je Stunde /kWh<br/>
 Beispiel:<br/>
 Liegt der kWh-Preis bei Hourly-CAP z.B. bei 30.94Cent, dann reduziert sich der Preis am 22.01.25 ab 23 Uhr um 12.61 Cent auf 18.33 Cent je kWh.
 
+Plot
+====
+
+start *./plotDaily.py* and navigate with your webbrowser to [/tmp/webserver/index.html](/tmp/webserver/index.html)
+![picture](https://github.com/schenlap/calcHourlyCAP/blob/main/documentation/screenshot.png)
+
+
 
 
 
